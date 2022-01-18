@@ -66,7 +66,7 @@ const  { ind } = require(`./language`)
 lang = ind //language
 enter = '\n'
 typemenu = 'templateLocation'
-moment.tz.setDefault("Asia/Jakarta").locale("id");
+moment.tz.setDefault("Asia/Colombo").locale("id");
 
 module.exports = alpha = async (alpha, m, chatUpdate) => {
     try {
@@ -78,8 +78,8 @@ module.exports = alpha = async (alpha, m, chatUpdate) => {
         const type = Object.keys(mek.message)[0]
 		 const from = mek.key.remoteJid
 		 const content = JSON.stringify(mek.message)
-        const time = moment(Date.now()).tz('Asia/Jakarta').locale('id').format('HH:mm:ss z')
-        const salam = moment(Date.now()).tz('Asia/Jakarta').locale('id').format('a')
+        const time = moment(Date.now()).tz('AAsia/Colombo').locale('id').format('HH:mm:ss z')
+        const salam = moment(Date.now()).tz('Asia/Colombo').locale('id').format('a')
         const command = body.replace(prefix, '').trim().split(/ +/).shift().toLowerCase()
         const args = body.trim().split(/ +/).slice(1)
         const pushname = m.pushName || "No Name"
@@ -376,33 +376,14 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "Tᥱᥣᥱgram",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "Facebook",              
               "url": `${myweb}`
-
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝑅𝑢𝑙𝑒𝑠",
-"id": 'rules'
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
-"id": 'owner'
-            }
-          },
-{
-            "quickReplyButton": {
-              "displayText": "𝐿𝑖𝑠𝑡 𝑐𝑜𝑚𝑚𝑎𝑛𝑑",
-"id": 'command'
             }
           }
         ]
