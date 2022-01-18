@@ -78,7 +78,7 @@ module.exports = alpha = async (alpha, m, chatUpdate) => {
         const type = Object.keys(mek.message)[0]
 		 const from = mek.key.remoteJid
 		 const content = JSON.stringify(mek.message)
-        const time = moment(Date.now()).tz('AAsia/Colombo').locale('id').format('HH:mm:ss z')
+        const time = moment(Date.now()).tz('Asia/Colombo').locale('id').format('HH:mm:ss z')
         const salam = moment(Date.now()).tz('Asia/Colombo').locale('id').format('a')
         const command = body.replace(prefix, '').trim().split(/ +/).shift().toLowerCase()
         const args = body.trim().split(/ +/).slice(1)
@@ -363,7 +363,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                     + `ORG:Owner ${botname};\n` // the organization of the contact
                     + `TEL;type=CELL;type=VOICE;waid=${ownernomer}:${ownernomerr}\n`
                     + 'END:VCARD'
-                alpha.sendMessage(m.chat, { contacts: { displayName: 'Zeeone Ofc.', contacts: [{ vcard }] } }, { quoted: m })
+                alpha.sendMessage(m.chat, { contacts: { displayName: 'Chitoge <3', contacts: [{ vcard }] } }, { quoted: m })
             }
             break
             case 'rules':
@@ -376,7 +376,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             var but = [
           {
             "urlButton": {
-              "displayText": "Tᥱᥣᥱgram",
+              "displayText": "Tᥱᥣᥱgrᥲm",
               "url": `${youtube}`
             }
           },
@@ -741,33 +741,15 @@ if(m.isGroup){
 var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "ᴛᴇʟᴇɢʀᴀᴍ",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "ғᴀᴄᴇʙᴏᴏᴋ,              
               "url": `${myweb}`
 
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
-"id": 'donate'
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
-"id": 'owner'
-            }
-          },
-{
-            "quickReplyButton": {
-              "displayText": "𝐿𝑖𝑠𝑡 𝑐𝑜𝑚𝑚𝑎𝑛𝑑",
-"id": 'command'
             }
           }
         ]
@@ -777,33 +759,8 @@ var but = [
          but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "ᴛᴇʟᴇɢʀᴀᴍ",
               "url": `${youtube}`
-            }
-          },
-          {
-            "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
-              "url": `${myweb}`
-
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
-"id": 'donate'
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
-"id": 'owner'
-            }
-          },
-{
-            "quickReplyButton": {
-              "displayText": "𝐿𝑖𝑠𝑡 𝑐𝑜𝑚𝑚𝑎𝑛𝑑",
-"id": 'command'
             }
           }
         ]
@@ -813,33 +770,15 @@ var but = [
 var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "ᴛᴇʟᴇɢʀᴀᴍ",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "ғᴀᴄᴇʙᴏᴏᴋ",              
               "url": `${myweb}`
 
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
-"id": 'donate'
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
-"id": 'owner'
-            }
-          },
-{
-            "quickReplyButton": {
-              "displayText": "𝑅𝑢𝑙𝑒𝑠",
-"id": 'rules'
             }
           }
         ]
@@ -851,33 +790,15 @@ case 'allmenu':
 	var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "ᴛᴇʟᴇɢʀᴀᴍ",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "ғᴀᴄᴇʙᴏᴏᴋ,              
               "url": `${myweb}`
 
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
-"id": 'donate'
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
-"id": 'owner'
-            }
-          },
-{
-            "quickReplyButton": {
-              "displayText": "𝑅𝑢𝑙𝑒𝑠",
-"id": 'rules'
             }
           }
         ]
@@ -888,7 +809,7 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "ᴛᴇʟᴇɢʀᴀᴍ",
               "url": `${youtube}`
             }
           },
@@ -897,24 +818,6 @@ case 'ownercmd': case'ownermenu':
               "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
               "url": `${myweb}`
 
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
-"id": 'donate'
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
-"id": 'owner'
-            }
-          },
-{
-            "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
-"id": 'command'
             }
           }
         ]
@@ -925,34 +828,10 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "ᴛᴇʟᴇɢʀᴀᴍ",
               "url": `${youtube}`
             }
           },
-          {
-            "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
-              "url": `${myweb}`
-
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
-"id": 'donate'
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
-"id": 'owner'
-            }
-          },
-{
-            "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
-"id": 'command'
-            }
           }
         ]
         await alpha.send5ButLoc(from, lang.anime(prefix) , `© ${ownername}`,animecmd, but )
@@ -962,33 +841,15 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "ᴛᴇʟᴇɢʀᴀᴍ",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "ғᴀᴄᴇʙᴏᴏᴋ",              
               "url": `${myweb}`
 
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
-"id": 'donate'
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
-"id": 'owner'
-            }
-          },
-{
-            "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
-"id": 'command'
             }
           }
         ]
@@ -999,33 +860,15 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "ᴛᴇʟᴇɢʀᴀᴍ",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "ғᴀᴄᴇʙᴏᴏᴋ",              
               "url": `${myweb}`
 
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
-"id": 'donate'
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
-"id": 'owner'
-            }
-          },
-{
-            "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
-"id": 'command'
             }
           }
         ]
@@ -1036,33 +879,15 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "ᴛᴇʟᴇɢʀᴀᴍ",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "ғᴀᴄᴇʙᴏᴏᴋ",              
               "url": `${myweb}`
 
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
-"id": 'donate'
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
-"id": 'owner'
-            }
-          },
-{
-            "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
-"id": 'command'
             }
           }
         ]
@@ -1073,33 +898,14 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "ᴛᴇʟᴇɢʀᴀᴍ",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "ғᴀᴄᴇʙᴏᴏᴋ",              
               "url": `${myweb}`
-
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
-"id": 'donate'
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
-"id": 'owner'
-            }
-          },
-{
-            "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
-"id": 'command'
             }
           }
         ]
@@ -1110,33 +916,15 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "ᴛᴇʟᴇɢʀᴀᴍ",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "ғᴀᴄᴇʙᴏᴏᴋ",              
               "url": `${myweb}`
 
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
-"id": 'donate'
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
-"id": 'owner'
-            }
-          },
-{
-            "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
-"id": 'command'
             }
           }
         ]
@@ -1147,33 +935,14 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "ᴛᴇʟᴇɢʀᴀᴍ",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "ғᴀᴄᴇʙᴏᴏᴋ",              
               "url": `${myweb}`
-
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
-"id": 'donate'
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
-"id": 'owner'
-            }
-          },
-{
-            "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
-"id": 'command'
             }
           }
         ]
@@ -1184,33 +953,14 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "ᴛᴇʟᴇɢʀᴀᴍ",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "𝑅𝑒𝑠𝑡 𝐴𝑃𝐼'𝑠",              
+              "displayText": "ғᴀᴄᴇʙᴏᴏᴋ",              
               "url": `${myweb}`
-
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝐷𝑜𝑛𝑎𝑠𝑖",
-"id": 'donate'
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "𝑂𝑤𝑛𝑒𝑟",
-"id": 'owner'
-            }
-          },
-{
-            "quickReplyButton": {
-              "displayText": "𝐵𝑎𝑐𝑘 𝑇𝑜 𝐿𝑖𝑠𝑡",
-"id": 'command'
             }
           }
         ]
@@ -1221,7 +971,7 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "ᴛᴇʟᴇɢʀᴀᴍ",
               "url": `${youtube}`
             }
           },
@@ -1259,7 +1009,7 @@ case 'ownercmd': case'ownermenu':
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "ᴛᴇʟᴇɢʀᴀᴍ",
               "url": `${youtube}`
             }
           },
@@ -1297,7 +1047,7 @@ case 'nsfwcmd': case 'nsfwcommand':{
  var but = [
           {
             "urlButton": {
-              "displayText": "𝑌𝑜𝑢𝑇𝑢𝑏𝑒 𝐶𝑟𝑒𝑎𝑡𝑜𝑟",
+              "displayText": "ᴛᴇʟᴇɢʀᴀᴍ",
               "url": `${youtube}`
             }
           },
